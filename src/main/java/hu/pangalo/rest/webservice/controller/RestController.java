@@ -23,6 +23,6 @@ public class RestController {
 	public ResponseEntity<String> helloWorld() {
 		Integer counter = counterService.incrementCounter();
 		logger.info("counter: " + counter);
-		return ResponseEntity.ok("Hello World! in-memory counter: " + counter);
+		return ResponseEntity.ok("SZG: Hello World! in-memory counter: " + counter);
 	}
 }

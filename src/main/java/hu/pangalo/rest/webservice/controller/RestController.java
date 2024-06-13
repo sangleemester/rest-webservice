@@ -16,6 +16,6 @@ public class RestController {
 
 	@GetMapping
 	public ResponseEntity<String> helloWorld() {
-		return ResponseEntity.ok("Hello World!");
+		return ResponseEntity.ok("Helloooo World!");
 	}
 }
